@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+
+    <!-- Main Content -->
+    <div class="content">
+        <h2>Welcome to the Word Guessing Game!</h2>
+    </div>
+
+
+
+    <div id="login-container">
+        <h1>Word Guessing Game</h1>
+        <input type="text" id="playerName" placeholder="Enter your name">
+        <button id="loginBtn">Start Game</button>
+    </div>
+    
+    <div id="game-container" style="display: none;">
+        <h2>Guess the Word</h2>
+        <p>Player: <span id="playerDisplay"></span></p>
+        <p id="hint">Hint: </p>
+        <input type="text" id="wordInput" placeholder="Type your guess here">
+        <p>Score: <span id="score">0</span></p>
+        <p>Lives: <span id="lives">3</span></p>
+        <p id="message"></p>
+        <button id="stopBtn">Stop Game</button>
+        <button id="restartBtn">Restart Game</button>
+    </div>
+    
+      <!-- Footer -->
+      <footer>
+        &copy; <span id="year"></span> Word Guessing Game. All Rights Reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
