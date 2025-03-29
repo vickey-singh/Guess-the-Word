@@ -28,4 +28,5 @@
    git clone https://github.com/vickey-singh/Guess-the-Word.git
 
 ## 📞 Contact
+Feel free to reach out!<br>
 📧 Email: vickeykumarsingh.edu@gmail.com
